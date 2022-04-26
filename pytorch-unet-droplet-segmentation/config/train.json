@@ -1,0 +1,45 @@
+{
+    "batch_size": 8,
+    "bpds_kwargs": {},
+    "buffer_size": 20,
+    "buffer_switch_frequency": 20,
+    "class_dataset": "TiffDataset",
+    "gpu_ids": 0,
+    "interval_save": 50,
+    "iter_checkpoint": [
+        900,
+        1000,
+        1100,
+        1200,
+        1300,
+        1400,
+        1500,
+        1600,
+        1700,
+        2000,
+        3000,
+        4000,
+        5000,
+        6000,
+        10000],
+    "lr": 0.001,
+    "n_iter": 11000,
+    "nn_kwargs": {},
+    "nn_module": "fnet_nn_2d",
+    "patch_size": [
+        512,
+        512
+    ],
+    "path_dataset": "",
+    "path_dataset_val": true,
+    "path_run_dir": "saved_models",
+    "seed": null,
+    "shuffle_images": true,
+    "transform_signal": [
+        "fnet.transforms.normalize"
+    ],
+    "transform_target": [
+
+
+    ]
+}

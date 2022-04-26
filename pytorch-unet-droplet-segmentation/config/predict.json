@@ -1,0 +1,22 @@
+{
+    "class_dataset": "TiffDatasetTest",
+    "gpu_ids": 0,
+    "module_fnet_model": "fnet_model",
+    "n_images": 500,
+    "no_prediction": false,
+    "no_prediction_unpropped": true,
+    "no_signal": false,
+    "no_target": true,
+    "path_dataset": "",
+    "path_model_dir": [
+        ""
+    ],
+    "path_save_dir": "",
+    "propper_kwargs": {},
+    "transform_signal": [
+        "fnet.transforms.normalize"
+    ],
+    "transform_target": [
+
+    ]
+}
