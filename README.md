@@ -15,3 +15,6 @@ You might put the path of test dataset, the path of model and the path of result
 
 You might put the path of prediction and the path of label here in order to count dice.(in dice.py)
 
+As for the models in fnet->nn.module, p1_unet means upsampling branch(blue boxes in the following figure) is added at position 1, and so on.
+![image](https://user-images.githubusercontent.com/66905900/213875935-5949f13c-fb16-4f17-837e-c75a79a6a218.png)
+
